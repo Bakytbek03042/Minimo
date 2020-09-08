@@ -1,0 +1,216 @@
+body {
+    font-size: 14px;
+    font-family: "Playfair Display", sans-serif;
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* Header 
+======================================================*/
+.header {
+    margin: 0 auto;
+    width: 1400px;
+    padding-bottom: 150px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 150px;
+}
+
+.header__title {
+    font-size: 30px;
+    font-family: "Inconsolata", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.nav__link {
+    text-decoration: none;
+    padding-left: 150px;
+    text-transform: uppercase;
+
+    color: #626262;
+}
+.nav__link:first-child {
+    padding-left: 0;
+}
+
+.nav {
+    display: flex;
+}
+
+
+/* Image
+======================================================*/
+.image__container {
+    width: 1400px;
+    height: 670px;
+    
+    margin: 0 auto;
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Container of all posts 
+========================================================*/
+.container {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+
+/* Post 
+========================================================*/
+.posts {
+    margin-top: 120px;
+}
+
+.asdf {
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.title__post {
+    font-size: 30px;
+    color: #626262;
+    font-weight: 400;
+}
+
+.text__subtitle {
+    font-size: 14px;
+    color: #626262;
+    font-weight: 400;
+}
+
+/* Blogs 
+=============================================================*/
+
+.post__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blog {
+    width: 560px;
+    padding-top: 120px;
+}
+
+.image__blog {
+    width: 560px;
+    height: 380px;
+}
+
+/* Sign up 
+===============================================================*/
+.sign__up {
+    width: 100%;
+    height: 400px;
+    background: #f0f0f0;
+    align-items: center;
+    text-align: center;
+}
+
+.sign__up__inner {
+    height: 400px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign__up__title {
+    padding-bottom: 45px;
+}
+
+.email__address {
+    display: flex;
+    justify-content: center;
+}
+
+.email__inner {
+    height: 45px;
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    border-bottom: 1px solid #626262;
+}
+
+/* Button 
+===============================================================*/
+.btn__container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding-top: 200px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+}
+
+.btn__style {
+    border: 1px solid #626262;
+    padding: 25px 70px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Footer 
+================================================================*/
+.footer {
+    background: #f0f0f0;
+    width: 100%;
+    height: 100px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.terms {
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+}
+
+.social__media {
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+}
+
+.footer__text {
+    font-weight: 400;
+    font-size: 14px;
+
+    padding-left: 15px;
+}
+
+.footer__img {
+    padding-left: 15px;
+}
+
+.footer__text:first-child {
+    padding-left: 0;
+}
